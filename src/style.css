@@ -1,5 +1,28 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 20px;
 }
+
+.card{
+    width: 350px;
+    height: 505px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.18);
+    border: 2px solid white;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.naipe{
+    font-size: 7rem;
+}
+
+.naipe #top {text-align: left;}
+.naipe #bottom {text-align: right; }
