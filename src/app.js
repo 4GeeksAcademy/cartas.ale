@@ -22,6 +22,10 @@ const randomPalos = pick(palos);
 document.getElementById("top").textContent = randomPalos;
 document.getElementById("value").textContent = randomValue;
 document.getElementById("bottom").textContent = randomPalos;
+
+const rojo = randomPalos == '♦' || randomPalos == '♥';
+document.getElementById("top").style.color = rojo ? "red" : "black";
+document.getElementById("bottom").style.color = rojo ? "red" : "black";
 }
 
 
